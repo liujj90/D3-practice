@@ -1,0 +1,27 @@
+body{
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:0;
+  margin: 0px;
+  overflow : hidden;
+  background-color: grey;
+}
+
+.sphere{
+  fill: #4d4dff;
+}
+
+
+.country{
+  fill: #3dad3d;
+  stroke: black;
+  stroke-width: 0.05px;
+}
+
+
+.country:hover{
+  fill:red;
+}

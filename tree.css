@@ -1,0 +1,25 @@
+body{
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:0;
+  margin: 0px;
+  overflow : hidden;
+}
+
+path{
+  fill:none;
+  stroke: #66cc6a;
+
+}
+
+.text{
+  text-shadow:
+    -1px -1px 3px white,
+    -1px 1px 3px white,
+    1px -1px 3px white,
+    1px 1px 3px white;
+  pointer-events:none;
+}

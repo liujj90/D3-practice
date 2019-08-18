@@ -1,0 +1,39 @@
+body{
+  position: fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:0;
+  margin: 0px;
+  overflow : hidden;
+  background-color: grey;
+}
+
+.sphere{
+  fill: #4d4dff;
+}
+
+
+.country{
+  stroke: black;
+  stroke-width: 0.05px;
+}
+
+.country.highlighted{
+  stroke: black;
+  stroke-width: 0.5px;
+}
+
+.country:hover{
+  fill:red;
+}
+
+.tick{
+  cursor: pointer;
+}
+
+.tick text{
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
